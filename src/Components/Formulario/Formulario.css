@@ -1,0 +1,60 @@
+.formulario {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: #6038bd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 1s ease;
+    transition: background-color 0.5s ease;
+}
+  
+.submit:hover {
+    background-color: #0077dd;
+    transform: scale(1.1);
+}
+
+.inicio{
+    background-color: #0077dd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 1s ease;
+    transition: background-color 0.5s ease;
+}
+
+.inicio:hover {
+    background-color: #6038bd;
+    transform: scale(1.1);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
